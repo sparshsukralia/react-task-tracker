@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "./Button";
 
-const Header = ({ title }) => {
+const Header = ({ title, onAdd }) => {
   return (
     <header className="header">
       <h1>{title}</h1>
-      <Button text="Add" color="green" />
+      <Button onClick={onAdd} text="Add" color="green" />
     </header>
   );
 };

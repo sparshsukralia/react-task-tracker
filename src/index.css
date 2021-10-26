@@ -94,6 +94,7 @@ body {
 .form-control-check {
   display: flex;
   align-items: center;
+  margin-right: 0;
   justify-content: space-between;
 }
 
